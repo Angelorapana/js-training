@@ -21,7 +21,11 @@ risultatoSottrazione.textContent = sottrazione; });
 
 bottoneDivisione.addEventListener("click", function() { 
 let divisione = parseInt(bottoneNumeroUno.value) / parseInt(bottoneNumeroDue.value)
-risultatoDivisione.textContent = divisione; });         
+risultatoDivisione.textContent = divisione; });  
+
+bottoneMoltiplicazione.addEventListener("click", function() { 
+let moltiplicazione = parseInt(bottoneNumeroUno.value) * parseInt(bottoneNumeroDue.value)
+risultatoMoltiplicazione.textContent = moltiplicazione; });
 
 
 
