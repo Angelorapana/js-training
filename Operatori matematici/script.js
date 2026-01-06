@@ -15,5 +15,9 @@ bottoneSomma.addEventListener("click", function() {
 let somma = parseInt(bottoneNumeroUno.value) + parseInt(bottoneNumeroDue.value)
 risultatoAddizione.textContent = somma; });
 
+bottoneSottrazione.addEventListener("click", function() { 
+let sottrazione = parseInt(bottoneNumeroUno.value) - parseInt(bottoneNumeroDue.value)
+risultatoSottrazione.textContent = sottrazione; });
+
 
 
