@@ -15,3 +15,8 @@ bottoneMaius.addEventListener("click", function() {
     risultatoMaius.innerText = "Risultato: " + testoMaiuscolo;
 });
 
+bottoneMinus.addEventListener("click", function() {
+    let testoMinuscolo = testoinserito.value.toLowerCase();
+    risultatoMinus.innerText = "Risultato: " + testoMinuscolo;
+});
+
