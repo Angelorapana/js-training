@@ -19,5 +19,9 @@ bottoneSottrazione.addEventListener("click", function() {
 let sottrazione = parseInt(bottoneNumeroUno.value) - parseInt(bottoneNumeroDue.value)
 risultatoSottrazione.textContent = sottrazione; });
 
+bottoneDivisione.addEventListener("click", function() { 
+let divisione = parseInt(bottoneNumeroUno.value) / parseInt(bottoneNumeroDue.value)
+risultatoDivisione.textContent = divisione; });         
+
 
 
